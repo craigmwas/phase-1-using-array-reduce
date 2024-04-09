@@ -1,7 +1,7 @@
 require ( './helpers.js' );
 
 const sinon = require( 'sinon' )
-
+let totalBatteries = 0;
 describe('reducer', function() {
   describe('batteries', function() {
     it('should have a `totalBatteries` variable', function() {
